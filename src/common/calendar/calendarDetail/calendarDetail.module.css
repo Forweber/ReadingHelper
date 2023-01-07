@@ -1,0 +1,35 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.closeBtn {
+  align-self: end;
+}
+.close {
+  width: 1rem;
+}
+.thumbnail {
+  margin-bottom: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.review {
+  resize: none;
+  outline: none;
+}
+.submit {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+.submit:hover {
+  background: makerLightYellow;
+}
+.memo {
+  width: 100%;
+  margin-top: 2rem;
+}

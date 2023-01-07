@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import ImageFileInput from "./components/report/image_file_input/image_file_input";
 import { Provider } from "react-redux";
 import { store } from "./store";
 

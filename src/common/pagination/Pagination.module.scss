@@ -1,0 +1,20 @@
+.move_page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_move{
+  display:flex;
+  align-items: center;
+}
+.page_button{
+  font-size: var(--f16);
+  font-family: 'IM_Hyemin-Bold';
+}
+.page_selected{
+  font-size: var(--f18);
+  color: var(--orange-50);
+}
+

@@ -1,4 +1,4 @@
-import MainFrame from "./pages/MainFrame";
+import MainFrame from "./components/MainFrame";
 import './global.scss';
 
 const App = () => {

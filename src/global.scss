@@ -10,7 +10,7 @@
   --blue-8010: rgba(27, 44, 162, 0.1);
   --blue-90: #091fa0; //진행상황
 
-  --puple-40: hsl(294, 24%, 53%);
+  --puple-40: #9e6aa4;
   --puple-80: #540375; //기본 
 
   --lightGreen-50: #3ac8b4; //주소
@@ -18,6 +18,7 @@
 
   --red-30: #ff97aa;
   --red-50: #e5615d;
+  --red-90: #990000;
 
   --gray-10: #f9fafb; //스케줄 추가
   --gray-20: #f6f6f9; //씬 스트립
@@ -28,6 +29,7 @@
   --yellow-100: #ffbe17;
 
   --orange-50: #FF7000;
+  --orange-80: #E14D2A;
 
   --white: #ffffff;
   --white-10: #f0f0f0;
@@ -62,14 +64,25 @@
   --f36: 2.25rem;
   --f37: 2.313rem;
   --f40: 2.5rem;
-  --f50:3.125rem;
+  --f50: 3.125rem;
+  --f60: 3.75rem;
+  --f80: 5rem;
+  --f100: 6.25rem;
+  --f160: 10rem;
+  --f200: 12.5rem;
+  --f240: 15rem;
+  --f300: 18.75rem;
+  --f320: 20rem;
+  --f480: 30rem;
+  --f500: 31.25rem;
+  --f640: 40rem;
 }
 
 /*========== fonts ==========*/
 @font-face {
   font-family: "Jejudoldam";
   font-style: normal;
-  src: url("./common/font/jejudoldam.ttf");
+  src: url("./public/font/jejudoldam.ttf");
 }
 
 @font-face {

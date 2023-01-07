@@ -1,0 +1,53 @@
+
+.container {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+}
+.report {
+  display: flex;
+  flex-direction: column;
+  background-color: makerLightGrey;
+  padding: 2rem;
+}
+.report_background {
+  background: white;
+  padding-top: 1rem;
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail_container,
+.report_info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info table th {
+  width: 4.5rem;
+  text-align: left;
+}
+
+.report_info h5 {
+  margin-right: 1rem;
+}
+.thumbnail {
+  width: 10rem;
+}
+.thumbnail img {
+  width: 100%;
+}
+.report_content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.content {
+  line-height: 2;
+}

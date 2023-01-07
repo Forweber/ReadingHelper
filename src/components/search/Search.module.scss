@@ -1,0 +1,179 @@
+/* search */
+.container{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'IM_Hyemin-Bold';
+  font-size: var(--f20);
+}
+.title, .reset{
+  display: flex;
+  align-items: center;
+}
+.reset{
+  gap:1px;
+  color: var(--gray-90);
+}
+.reset:hover{
+  color: var(--default);
+}
+
+.tokki_says{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top : 100px;
+}
+.tokki_says img{
+  width: 200px;
+}
+
+.search_result{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booklist{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination{
+  margin-top: var(--f40);
+}
+
+
+
+/* search card */
+.book{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'IM_Hyemin';
+  margin-top: 40px;
+  cursor:pointer;
+}
+.thumbnail{
+  width:100px;
+  height:160px;
+}
+.thumbnail img{
+  width:100%;
+}
+.book h5{
+  text-align: center;
+  width: 150px;
+}
+
+
+/* search detail */
+.search_detail{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3{
+    margin-bottom: var(--f50);
+  }
+
+  .info{
+    font-size: small;
+
+    .thumbnail{
+      width: var(--f160);
+      height: var(--f240);
+      display: flex;
+    }
+
+    .thumbnail img{
+      object-fit: contain;
+    }
+
+
+    .book_info{
+      width:100%;
+      display: flex;
+      text-align: left;
+    }
+    .book_info span{
+      margin: 0;
+      margin-right: var(--f5);
+      font-weight: bold;
+
+    }
+  }
+  .book_content{
+    margin-top: var(--f40);
+  }
+  .content{
+    width: var(--f640);
+    height: var(--f100);
+    font-size: var(--f16);
+    overflow: hidden;
+    position: relative;
+  }
+  .content.show{
+    overflow: unset;
+  }
+  .more_gradient{
+    width: var(--f640);
+    height: 15px;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(180deg, transparent, #fff 15px);
+  }
+
+  .btn_more{
+    font-family: 'IM_Hyemin-Bold';
+  }
+}
+
+.controls{
+  position:absolute;
+  bottom:0;
+  width:60%;
+  height: var(--f200);
+  background: var(--default);
+  border-radius: var(--f80) var(--f80) 0 0;
+}
+.controls{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.controls div{
+  width:33.3%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--orange-50);
+  font-size: var(--f30);
+  font-family: 'IM_Hyemin-Bold';
+  cursor: pointer;
+}
+.controls div:hover{
+  color: var(--yellow-100);
+  background-color: var(--puple-40);
+}
+
+.controls div:nth-child(1){
+  border-radius: var(--f80) 0 0 0;
+}
+
+.controls div:nth-child(2){
+}
+
+.controls div:nth-child(3){
+  border-radius: 0 var(--f80) 0 0;
+}
+
